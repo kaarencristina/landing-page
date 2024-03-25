@@ -78,7 +78,7 @@
 
 .form-group label{
     color: var(--cor1);
-    margin-bottom: 1rem;
+  
     font-weight: bold;
 
 }
@@ -90,6 +90,7 @@
     outline: none;
     margin-bottom: 1rem;
     width: 100%;
+    margin-top: 0.5rem;
 }
 
 #subscription-form .btn {
@@ -109,16 +110,41 @@
 }
 
 #location{
-    background-color: black;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url("../img/foto2.jpeg");
+    height: 400px;   
+    background-position: center;
+    background-size: cover;    
+    
     color: #07d8b8;
-    height: 300px;
-    
-   
-    
+}
+hr{
+    height: 5rem;
+    background-color: black;
+    border: none;
 }
 
 #address{
-    background-color: yellow;
+   width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
     
+}
+
+#address i{
+    font-size: 4rem;
+    margin-right: 1rem;
+}
+
+
+#address-details{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.iframe{
+
 }
