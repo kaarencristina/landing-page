@@ -56,14 +56,15 @@
 
 #subscription-form{
     background-color: rgb(221, 221, 221);
-    padding: 2rem;
+    padding: 3rem;
     max-width: 22%;
 }
 
 #subscription-form p{
     font-size: 1.4rem;
     color: var(--cor1);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+   
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
 }
@@ -71,13 +72,13 @@
 #form-group{
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    
 
 }
 
 .form-group label{
     color: var(--cor1);
-    margin-bottom: .3em;
+    margin-bottom: 1rem;
     font-weight: bold;
 
 }
@@ -87,10 +88,12 @@
     border-radius: 5px;
     border: none;
     outline: none;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 #subscription-form .btn {
-    background-color:var(--cor1);
+   background-color:var(--cor1);
    color: white;
    text-transform: uppercase;
    margin-top: 1rem;
@@ -109,7 +112,13 @@
     background-color: black;
     color: #07d8b8;
     height: 300px;
+    
+   
+    
 }
+
 #address{
-    background-color: purple;
+    background-color: yellow;
+    
+    
 }
