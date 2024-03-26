@@ -124,6 +124,44 @@ hr{
     border: none;
 }
 
+
+
+
+.list-banda{
+    background-color: var(--cor2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.img{
+    margin: 2rem;
+    height: 300px;
+    width: 350px;
+    
+}
+
+#banda1{
+ text-align: center;
+ 
+}
+#banda2{
+    text-align: center;
+    
+}
+#banda3{
+    text-align: center;
+    
+}
+
+#banda1,#banda2,#banda3 p{
+    margin-bottom: 2rem;
+}
+
+
+
 #address{
    width: 100%;
    
@@ -145,6 +183,28 @@ hr{
     font-size: 2rem;
 }
 
-.iframe{
+/* footer */
 
+.footer{
+    text-align: center;
+    color:var(--cor1);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer h3{
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer p:nth-child(2){
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.footer span{
+    font-weight: bold;
 }
