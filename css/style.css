@@ -134,6 +134,7 @@ hr{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .img{
@@ -163,8 +164,7 @@ hr{
 
 
 #address{
-   width: 100%;
-   
+   width: 100%;   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -207,4 +207,46 @@ hr{
 
 .footer span{
     font-weight: bold;
+}
+
+/* mobile */
+
+@media (max-width:450px){
+   #event-description{
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    #disclaimer{
+        padding: 2em;
+    }
+
+    #disclaimer h2{
+        margin-bottom: 0.5em;
+    }
+
+    #subscription-form{
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+    #location{
+        flex-direction: column;
+        height: auto;        
+        padding: 2em 0;
+    
+    }
+   #address{
+    flex-direction: column;
+    
+   }
+    #address-details p{
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .map iframe{
+        width: 380px;
+        height: 350px;
+    }
+   
 }
