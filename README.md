@@ -1,16 +1,17 @@
 # Landing Page Training Project
 
-## Descrição
+### Description
 
-Este é um projeto de landing page desenvolvido como parte de um treinamento em desenvolvimento web. O objetivo deste projeto foi criar uma landing page moderna e responsiva usando HTML e CSS. Este projeto é uma demonstração de habilidades adquiridas em design de páginas e estilização web.
+This is a landing page project developed as part of web development training. The goal of this project was to create a modern and responsive landing page using HTML and CSS. This project demonstrates the skills acquired in page design and web styling.
 
-## Funcionalidades
+### Features
 
-- Layout responsivo: Adaptação automática a diferentes tamanhos de tela.
-- Estilo moderno: Design limpo e atraente com uso de cores e tipografia modernas.
-- Seções principais: Inclui seções como cabeçalho, sobre, serviços, e formulário de contato.
+- **Responsive layout**: Automatically adapts to different screen sizes.
+- **Modern style**: Clean and attractive design with the use of modern colors and typography.
+- **Main sections**: Includes sections such as header, about, services, and contact form.
 
-## Tecnologias Utilizadas
+### Technologies Used
 
 - HTML5
 - CSS3
+
